@@ -26,3 +26,10 @@ puts array[0]
 puts "\n"
 puts "Puts Array but reversed:"
 puts array.reverse
+
+
+puts "\n"
+puts "Puts Array but ascending order:"
+puts array.sort do |a, b|
+  a <=> b
+end
