@@ -22,3 +22,7 @@ puts array
 puts "\n"
 puts "Puts Array Point 1:"
 puts array[0]
+
+puts "\n"
+puts "Puts Array but reversed:"
+puts array.reverse
